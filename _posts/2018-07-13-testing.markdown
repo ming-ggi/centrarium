@@ -6,6 +6,7 @@ author: Ming-GGi
 categories: dumpy
 ---
 
-#안냥하세여
+#hello
 
-++이것은 테스트 글입니다++
+
+이것은 테스트 글입니다++
