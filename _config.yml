@@ -20,8 +20,13 @@ description: >
 # root of your server.
 baseurl: # the subpath of your site, e.g. /blog/
 url: "https://ming-ggi.github.io" # the base hostname & protocol for your site
+<<<<<<< HEAD
 cover: "/assets/chiken_baby.jpeg"
 logo: "/assets/one_chicken.jpeg"
+=======
+cover: "/assets/chicken_baby.jpeg"
+logo: "/assets/siba.jpg"
+>>>>>>> 677d1c53f9d1f9f09aebdac92fc23a1fe119fb27
 
 # Build settings
 markdown: kramdown
