@@ -21,7 +21,7 @@ description: >
 baseurl: # the subpath of your site, e.g. /blog/
 url: "https://ming-ggi.github.io" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
-logo: "/Users/mind/Pictures/siba.jpg"
+logo: "/assets/siba.jpg"
 
 # Build settings
 markdown: kramdown
