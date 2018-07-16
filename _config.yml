@@ -10,18 +10,18 @@ exclude:
 
 # Site settings
 title: MingGGi Blog
-subtitle: 
+subtitle: 밍끼는 밍끼밍끼하고 울지.
 email: minchu9611@gmail.com
 name: Ming_GGi
 description: >
-  밍끼는 밍끼밍끼하고 울지.
+  
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: # the subpath of your site, e.g. /blog/
 url: "https://ming-ggi.github.io" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
-logo: "/assets/logo.png"
+logo: "/Users/mind/Pictures/siba.jpg"
 
 # Build settings
 markdown: kramdown
