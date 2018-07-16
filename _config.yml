@@ -21,7 +21,7 @@ description: >
 baseurl: # the subpath of your site, e.g. /blog/
 url: "https://ming-ggi.github.io" # the base hostname & protocol for your site
 <<<<<<< HEAD
-cover: "/assets/chiken_baby.jpeg"
+cover: "/assets/chicken_baby.jpeg"
 logo: "/assets/one_chicken.jpeg"
 =======
 cover: "/assets/chicken_baby.jpeg"
