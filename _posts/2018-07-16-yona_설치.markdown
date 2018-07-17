@@ -15,18 +15,20 @@ H2 DB 내장형은 간단하게 말하면 DB를 zip파일로 만들어서 usb �
 그렇다면 H2 DB의 문제점을 해결하기 위해 어째서 Yona가 Maria DB를 사용했는지는 추후에 포스팅하도록 하겠다. 
 
 --------------
-** == 설치하기 전 주의할 점 == **
-** ++ java 8 ++ 이 설치되어있어야합니다. **
+== **설치하기 전 주의할 점** ==
+
+** ++java 8++ 이 설치되어있어야합니다. **
    -  java version이 8 이하라면 업데이트를 하셔서 올리셔야합니다. (이때 현재 java는 version 9까지 출시되어있으므로 확인을 잘하세요... 이부분을 무시하는 순간 당신을 엄청난 뻘짓을 할지도 모릅니다..)
+   
    - java version이 8 이상이라면 version 8로 다시 설치를 하시면 됩니다.
 ------------
 
 ## Yona 설치하기 ##
-##### **1. 파일 다운로드 받기** #####
+#### **1. 파일 다운로드 받기** ####
 Yona의 깃허브 홈페이지에서 최신 release version을 다운받습니다.(https://github.com/yona-projects/yona/releases) 다운받은 zip 파일의 압축을 풀어줍니다.
 * 이때 이번 포스팅은 H2 DB 버전을 다운받을 예정이기때문에 yona-h2-version정보-bin.zip 형식의 파일을 다운받아야 합니다.
 
-![](/Users/mind/Pictures/git_blog_picture/yona_1.jpeg)
+![](/assets/blog/yona_1.jpeg)
 
 또는 terminal을 실행해서 
 * zip 파일을 다운받고.
@@ -38,17 +40,17 @@ Yona의 깃허브 홈페이지에서 최신 release version을 다운받습니�
 의 방법으로도 가능합니다.
 
 
-##### **2. Yona 실행** #####
+#### **2. Yona 실행** ####
 * 터미널에서 요나를 설치한 폴더로 이동합니다. 
 (cd  폴더경로)
 `cd /Users/mind/Downloads/yona-1.10.0\ 2 `
 
-	==이때 yona 폴더 이상으로 들어가지 않아야합니다!==
+	== 이때 yona 폴더 이상으로 들어가지 않아야합니다! ==
 * 커맨드 `bin/yona` 를 입력합니다.
 
-	== ** 성공적으로 서버가 실행됐다면 이하와 같은 화면이 나와야합니다 ** ==
+	== **성공적으로 서버가 실행됐다면 이하와 같은 화면이 나와야합니다** ==
 
-![](/Users/mind/Pictures/git_blog_picture/yona_2.jpeg)
+![](/assets/blog/yona_2.jpeg)
 == 이 단계에서 실행한 터미널이 종료되면 다음 단계로 가지 못합니다. ==
 
 ##### **3. 설치한 Yona 서버 들어가보기** #####
@@ -57,17 +59,17 @@ Yona의 깃허브 홈페이지에서 최신 release version을 다운받습니�
 	* 로컬PC에 설치한 경우 http://127.0.0.1:9000 를 통해서 접속합니다. 
 	
 * 접속하면 다음과 같은 홈페이지를 볼 수 있습니다.
-![](/Users/mind/Pictures/git_blog_picture/yona_3.jpeg)
+![](/assets/blog/yona_3.jpeg)
 * 빈칸을 채우고 생성하기 버튼을 누르게 되면 다음과 같이 '서버를 재시작해야합니다' 라는 말을 보실 수 있습니다.
 * 
-![](/Users/mind/Pictures/git_blog_picture/yona_4.jpeg)
+![](/assets/blog/yona_4.jpeg)
 
 * 켜놨던 서버(터미널 창)을 끄고 2번 단계를 다시 실행합니다.
 
 
 * 홈페이지를 새로고침 합니다. 정상적으로 돌아간다면 아래와 같은 홈페이지를 볼 수 있을것입니다.
 
- ![](/Users/mind/Pictures/git_blog_picture/yona_5.jpeg)
+ ![](/assets/blog/yona_5.jpeg)
  
  
 * 3단계에서 생성한 관리자 계정으로 로그인을 해줍니다. 
@@ -75,7 +77,7 @@ Yona의 깃허브 홈페이지에서 최신 release version을 다운받습니�
 	
 * 관리자 로그인되었다면 이런 화면을 보실 수 있습니다.
 
-![](/Users/mind/Pictures/git_blog_picture/yona_6.jpeg)
+![](/assets/blog/yona_6.jpeg)
 
 #### ** 여기까지 Yona를 설치하고 서버를 여는 것까지 끝났습니다. 다음 포스팅에서는 내가 관리하는 서버에 팀 멤버가 가입하고 프로젝트에 초대하는 방법에 대해 포스팅하겠습니다.** ####
 
