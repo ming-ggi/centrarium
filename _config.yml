@@ -43,7 +43,7 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-# disqus_shortname: bencentra
+disqus_shortname: https-ming-ggi-github-io
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
@@ -161,12 +161,12 @@ social:
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
 protocols:
-    fb_image: "/assets/logo.png"
+    fb_image: "/assets/one_chicken.jpeg"
     fb_image_width: 612
     fb_image_height: 605
-    fb_image_type: "image/png"
+    fb_image_type: "image/jpeg"
 
-    twitter_image: "/assets/logo.png"
+    twitter_image: "/assets/one_chicken.jpeg"
 
     os_repo: "https://github.com/bencentra/centrarium.com"
     os_rcs_type: "git"
